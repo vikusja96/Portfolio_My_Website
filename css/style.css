@@ -11,9 +11,9 @@
   --fw-reg: 300;
   --fw-bold: 900;
 
-  --clr-light: white;
-  --clr-dark: #303030;
-  --clr-accent: #16e0bd;
+  --clr-light: #BFBFBF;
+  --clr-dark: #0D0D0D;
+  --clr-accent: #D3D929;
 
   --fs-h1: 3rem;
   --fs-h2: 2.25rem;
@@ -310,6 +310,16 @@ header {
 .service {
   max-width: 500px;
   margin: 0 auto;
+}
+.icons {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(40px, 1fr));
+  gap: 1em;
+  margin-bottom: 3em;
+}
+.icon {
+  height: 30px;
+  width: 85px;
 }
 
 @media (min-width: 800px) {
