@@ -23,11 +23,12 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="css/style.css" />
+    <link rel="shortcut icon" href="img/VK_y.png"/>
   </head>
   <body>
     <header>
       <div class="logo">
-        <img src="img/VK_light.png" alt="VK-logo" class="logo__img"/>
+        <img src="img/VK_y.png" alt="VK-logo" class="logo__img" />
       </div>
       <button class="nav-toggle" aria-label="toggle navigation">
         <span class="hamburger"></span>
@@ -36,7 +37,7 @@
         <ul class="nav__list">
           <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
           <li class="nav__item">
-            <a href="#services" class="nav__link">My Services</a>
+            <a href="#services" class="nav__link">My Dev Skills</a>
           </li>
           <li class="nav__item">
             <a href="#about" class="nav__link">About me</a>
@@ -65,38 +66,16 @@
 
     <!-- My services -->
     <section class="my-services" id="services">
-      <h2 class="section__title section__title--services">What I do</h2>
+      <h2 class="section__title section__title--services">
+        My Development Skills
+      </h2>
       <div class="services">
         <div class="service">
-          <h3>Design</h3>
+          <h3>Setup</h3>
           <p>
-            It is a long established fact that a reader will be distracted by
-            the readable content of a page when looking at its layout. The point
-            of using Lorem Ipsum is that it has a more-or-less normal
-            distribution of letters, as opposed to using 'Content here, content
-            here', making it look like readable English. Many desktop publishing
-            packages and web page editors now use Lorem Ipsum as their default
-            model text, and a search for 'lorem ipsum' will uncover many web
-            sites still in their infancy. Various versions have evolved over the
-            years, sometimes by accident, sometimes on purpose (injected humour
-            and the like).
-          </p>
-        </div>
-        <!-- / service-->
-
-        <div class="service">
-          <h3>Frontend</h3>
-          <p>
-            It is a long established fact that a reader will be distracted by
-            the readable content of a page when looking at its layout. The point
-            of using Lorem Ipsum is that it has a more-or-less normal
-            distribution of letters, as opposed to using 'Content here, content
-            here', making it look like readable English. Many desktop publishing
-            packages and web page editors now use Lorem Ipsum as their default
-            model text, and a search for 'lorem ipsum' will uncover many web
-            sites still in their infancy. Various versions have evolved over the
-            years, sometimes by accident, sometimes on purpose (injected humour
-            and the like).
+            Planning and setup are important parts to build a good application.
+            At my projects, I use tools that help me to setup and plan my
+            work such as GitHub, Trello Board, Figma, ESLint, 
           </p>
         </div>
         <!-- / service-->
@@ -104,31 +83,48 @@
         <div class="service">
           <h3>Backend</h3>
           <p>
-            It is a long established fact that a reader will be distracted by
-            the readable content of a page when looking at its layout. The point
-            of using Lorem Ipsum is that it has a more-or-less normal
-            distribution of letters, as opposed to using 'Content here, content
-            here', making it look like readable English. Many desktop publishing
-            packages and web page editors now use Lorem Ipsum as their default
-            model text, and a search for 'lorem ipsum' will uncover many web
-            sites still in their infancy. Various versions have evolved over the
-            years, sometimes by accident, sometimes on purpose (injected humour
-            and the like).
+            To store data I have experience in using databases, such as
+            PostgreSQL and MongoDB. To develop the server, I have knowledge of
+            Node.js, Express to write RESTful API and Jest for testing the
+            framework by using TDD technic. For hosting, I have experience
+            Heroku cloud platform.
+          </p>
+        </div>
+        <!-- / service-->
+
+        <div class="service">
+          <h3>Frontend</h3>
+          <p>
+            For the frontend, I have experience of using HTML, CSS, JavaScript,
+            React and React Native with Expo and Android Studio to test mobile
+            applications. For hosting an application I used Netlify.
           </p>
         </div>
         <!-- / service-->
       </div>
       <!-- / services-->
-
-      <a href="#work" class="btn">My Work</a>
+      <div class="icons">
+        <img src="img/trello.svg" alt="" class="icon">
+        <img src="img/figma-1.svg" alt="" class="icon">
+        <img src="img/github-icon-1.svg" alt="" class="icon">
+        <img src="img/eslint-1.svg" alt="" class="icon">
+        <img src="img/logo-javascript.svg" alt="" class="icon">
+        <img src="img/nodejs-2.svg" alt="" class="icon">
+        <img src="img/express-109.svg" alt="" class="icon">
+        <img src="img/mongodb-icon-1.svg" alt="" class="icon">
+        <img src="img/postgresql.svg" alt="" class="icon">
+        <img src="img/html5-2.svg" alt="" class="icon">
+        <img src="img/css-3.svg" alt="" class="icon">
+        <img src="img/react-1.svg" alt="" class="icon">
+        <img src="img/react-native-1.svg" alt="" class="icon">
+      </div>
+      <a href="#work" class="btn">My Portfolio</a>
     </section>
 
     <!-- About me -->
     <section class="about-me" id="about">
       <h2 class="section__title section__title--about">Who I am</h2>
-      <p class="section__subtitle section__subtitle--about">
-        Full Stack Developer based in North England
-      </p>
+      <p class="section__subtitle section__subtitle--about">Facts about me</p>
 
       <div class="about-me__body">
         <p>
@@ -160,19 +156,15 @@
 
     <!-- My portfolio -->
     <section class="my-work" id="work">
-      <h2 class="section__title section__title--work">My work</h2>
+      <h2 class="section__title section__title--work">My Portfolio</h2>
       <p class="section__subtitle section__subtitle--work">
         A selection of my range of work
       </p>
 
       <div class="portfolio">
         <!-- Portfolio item 1 -->
-        <a href="portfolio-item.html" class="portfolio__item">
-          <img
-            src="img/goran-ivos-iacpoKgpBAM-unsplash.jpeg"
-            alt=""
-            class="portfolio__img"
-          />
+        <a href="nc-news.html" class="portfolio__item">
+          <img src="img/nc-news.jpg" alt="" class="portfolio__img" />
         </a>
 
         <!-- Portfolio item 2 -->
@@ -210,15 +202,15 @@
           <a
             class="social-list__link"
             href="https://www.linkedin.com/in/viktoria-fulier/"
-            ><i class="fab fa-linkedin"></i></a
-          >
+            ><i class="fab fa-linkedin"></i
+          ></a>
         </li>
         <li class="social-list__item">
           <a
             class="social-list__link"
             href="https://www.facebook.com/viktoria.stepanova.984/"
-            ><i class="fab fa-facebook-square"></i></a
-          >
+            ><i class="fab fa-facebook-square"></i
+          ></a>
         </li>
       </ul>
     </footer>
